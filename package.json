@@ -1,0 +1,23 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "Authentication service API for user login, registration, JWT tokens, and authorization.",
+  "keywords": [
+    "Authentication"
+  ],
+  "homepage": "https://github.com/abhisheksingh555-ai/auth-api#readme",
+  "bugs": {
+    "url": "https://github.com/abhisheksingh555-ai/auth-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abhisheksingh555-ai/auth-api.git"
+  },
+  "license": "ISC",
+  "author": "Abhishek Singh",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
