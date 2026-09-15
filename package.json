@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Authentication service API for user login, registration, JWT tokens, and authorization.",
   "keywords": [
-    "Authentication"
+    "authentication",
+    "authorization",
+    "jwt",
+    "api",
+    "nodejs",
+    "express"
   ],
   "homepage": "https://github.com/abhisheksingh555-ai/auth-api#readme",
   "bugs": {
@@ -18,10 +23,16 @@
   "type": "module",
   "main": "src/server.js",
   "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "argon2": "^0.45.1",
     "express": "^5.2.1",
-    "mongoose": "^9.10.0"
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.0",
+    "nodemon": "^3.1.14",
+    "socket.io": "^4.8.3"
   }
 }
