@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/abhisheksingh555-ai/auth-api#readme",
   "dependencies": {
+    "dotenv": "^18.0.8",
     "express": "^5.3.0",
     "mongoose": "^9.11.2"
   },
